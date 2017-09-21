@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/selector_pressed_danger_shape" android:state_pressed="true" />
+    <item android:drawable="@drawable/selector_focused_danger_shape" android:state_focused="true" android:state_window_focused="true" />
+    <item android:drawable="@android:color/transparent" android:state_focused="true" android:state_window_focused="false" />
+    <item android:drawable="@drawable/selector_unpressed_danger_shape" android:state_focused="false"></item>
+</selector>
